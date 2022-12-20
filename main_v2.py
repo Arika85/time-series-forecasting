@@ -17,6 +17,8 @@ st.markdown(page_title, unsafe_allow_html=True)
 
 # title
 # st.title(page_title + " " + " " + page_icon)
+# image of abhibus
+st.sidebar.image("abhibus_logo.png", use_column_width=False)
 
 # getting files 
 data = st.sidebar.file_uploader('Browse Files',type='csv')
